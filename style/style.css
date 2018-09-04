@@ -1,0 +1,128 @@
+.navbar {
+    margin-bottom: 0 !important;
+}
+
+.splash {
+    /*background-image: url('../background.jpg');*/
+    background-image: linear-gradient(to right, lightgray, black);
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.draggable {
+    padding: 20px;
+    opacity: 0.9;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.droppable {
+    margin: 30px;
+    opacity: 0.8;
+    padding: 10px 0 10px 0;
+}
+
+.information {
+    padding: 100px 150px;
+}
+
+.information_box {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+}
+
+.userprofile {
+    background-color: #FFF;
+    padding-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 200px;
+}
+
+.chat_container {
+    background-color: #FFF;
+    width: 350px;
+    padding: 30px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.chat_frame {
+    position: fixed;
+    bottom: 0;
+    background: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0;
+}
+
+.chat_button {
+    padding: 25px 60px 25px 60px;
+    background-color: rgb(92, 131, 240);
+    text-decoration: none;
+    border: 0;
+    color: #FFF;
+}
+
+.information h3 {
+    color: #FFF;
+    text-shadow: 1px 1px #000;
+}
+
+.panel_body_chat {
+    border: 0;
+    text-decoration: none;
+    box-shadow: 1px 3px 10px rgb(167, 167, 167);
+}
+
+.information h1 {
+    color: #FFF;
+    text-shadow: 1px 1px #000;
+    text-align: center;
+}
+
+.information input, .information select {
+    margin-left : 10px;
+}
+
+.insurance_button {
+    margin: 20px 0;
+    background-color: red;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px;
+    color: #FFF;
+}
+
+.info_cards {
+    margin-top: 20px;
+}
+
+.insurance_selector {
+    margin: 15px;
+}
+
+.insurance_category {
+    height: 370px;
+    display: inline;
+}
+
+.insurance_selector_vehicles {
+    height: 300px;
+}
+
+.info_image {
+    margin-bottom: 20px;
+}
+
+#insurance-dropbox {
+    padding: 20px;
+    border: solid white 2px;
+    border-radius: 10px;
+}
+
+#buy_insurances_container {
+    margin: auto;
+    text-align: center;
+}
